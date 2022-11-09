@@ -1,4 +1,4 @@
-! Title: 3lun's Filters - Annoyances
+! Title: 3lun's filters - Annoyances
 ! Expires: 50 days
 ! Homepage: https://github.com/3lun/filters
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -16,6 +16,10 @@ www.google.*###rso > div > div[jscontroller][data-hveid]:has(video-voyager)
 www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
 ! トップニュース
 www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
+! 百度
+! 百度热搜
+www.baidu.com##.s-hotsearch-wrapper
+
 
 ! マスコミ・ニュースサイト
 ! 読売オンライン
@@ -24,10 +28,39 @@ www.yomiuri.co.jp##.layout-contents__sidebar
 ! ピックアップ記事
 www.yomiuri.co.jp##.p-article-reading-recommend
 www.yomiuri.co.jp##.p-category-reading-recommend
+! 日本経済新聞
+! 右側
+www.nikkei.com##aside
+! 下側
+www.nikkei.com##.container_coxoowy
+! 産経ニュース
+! 右側
+www.sankei.com##.sidebar-items
+! 下側
+www.sankei.com##.story-card-header
+www.sankei.com##.story-card-feed
+! 朝日新聞デジタル
+! 右側
+www.asahi.com##aside
+! 下側
+www.asahi.com##._yMWq
+www.asahi.com##.AO19z
+! 毎日新聞
+! 関連記事
+mainichi.jp###articledetail-nextread
+! NHK NEWS WEB
+! 右側
+www3.nhk.or.jp##.side-inner
+! 下側
+www3.nhk.or.jp##.module--detail-morenews
+www3.nhk.or.jp##.module--news-feature
+www3.nhk.or.jp##.module--special
 ! CNN.co.jp
 ! 右側
 www.cnn.co.jp##.pg-container-side
-
+! 下側
+www.cnn.co.jp###related_stories
+www.cnn.co.jp##section
 
 ! Cookie
 zoom.us###onetrust-banner-sdk
