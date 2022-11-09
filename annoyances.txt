@@ -5,7 +5,7 @@
 ! Version: 20221109
 
 ! 検索エンジン
-! Google検索　Yuki's uBlock Japanese filters - Annoyances Plusより引用
+! Google検索 Yuki's uBlock Japanese filters - Annoyances Plusより引用
 ! 他のキーワード
 www.google.*###bres, div[id][data-abe][data-hveid]
 ! 他の人はこちらも質問
@@ -82,12 +82,21 @@ news.yahoo.co.jp###articleCommentModule
 ! あなたにおすすめの記事
 news.yahoo.co.jp##aside
 
-!ニコニコ大百科
+! ニコニコ大百科
 ! 右側
 dic.nicovideo.jp###right-column
 ! おすすめニュース
 dic.nicovideo.jp##.st-box_heading-news
 dic.nicovideo.jp##.a-recommend_news-contents
+
+! Twitter Yuki's uBlock Japanese filters - Annoyances Plusより引用
+! いまどうしてる？
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] div > div > div > section > div[aria-label="タイムライン: トレンド"]:upward(3)
+! その他のツイート
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 会話"] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(その他のツイート):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 会話"] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(その他のツイート):upward(div[style^=transform]) ~ div[style^=transform]
+! Twitter アカウント作成ウィジェット https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/320
+twitter.com##div[data-testid=sidebarColumn] section[aria-label=アカウント作成]
 
 ! Cookie
 zoom.us###onetrust-banner-sdk
