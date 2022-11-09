@@ -1,11 +1,15 @@
-! Title: 3lun's filters - Annoyances
+! Title: 3lun's filters - Annoyances（腐海フィルタ）
 ! Expires: 50 days
 ! Homepage: https://github.com/3lun/filters
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-! Version: 20221109
+! Version: 20221110
 
 ! 検索エンジン
-! Google検索 Yuki's uBlock Japanese filters - Annoyances Plusより引用
+! DuckDuckGo
+! 最新ニュース
+duckduckgo.com###m3-0
+
+! Google検索 Yuki's uBlock Japanese filters - Annoyances Plusより一部引用
 ! 他のキーワード
 www.google.*###bres, div[id][data-abe][data-hveid]
 ! 他の人はこちらも質問
@@ -16,39 +20,47 @@ www.google.*###rso > div > div[jscontroller][data-hveid]:has(video-voyager)
 www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
 ! トップニュース
 www.google.*##.ULSxyf
+! こちらを検索しますか
+www.google.*##block-component
+
 ! 百度
 ! 百度热搜
 www.baidu.com##.s-hotsearch-wrapper
 
-! マスコミ・ニュースサイト
+! マスコミ・ニュースサイトなど
 ! 読売オンライン
 ! 右側
 www.yomiuri.co.jp##.layout-contents__sidebar
 ! ピックアップ記事
 www.yomiuri.co.jp##.p-article-reading-recommend
 www.yomiuri.co.jp##.p-category-reading-recommend
+
 ! 日本経済新聞
 ! 右側
 www.nikkei.com##aside
 ! 下側
 www.nikkei.com##.container_coxoowy
+
 ! 産経ニュース
 ! 右側
 www.sankei.com##.sidebar-items
 ! 下側
 www.sankei.com##.story-card-header
 www.sankei.com##.story-card-feed
+
 ! 朝日新聞デジタル
 ! 右側
 www.asahi.com##aside
 ! 下側
 www.asahi.com##._yMWq
 www.asahi.com##.AO19z
+
 ! 毎日新聞
 ! 関連記事
 mainichi.jp###articledetail-nextread
 ! ニュース特集
 mainichi.jp###featurelist
+
 ! NHK NEWS WEB
 ! 右側
 www3.nhk.or.jp##.side-inner
@@ -58,12 +70,14 @@ www3.nhk.or.jp##.module--hot-trends
 www3.nhk.or.jp##.module--detail-morenews
 www3.nhk.or.jp##.module--news-feature
 www3.nhk.or.jp##.module--special
+
 ! CNN.co.jp
 ! 右側
 www.cnn.co.jp##.pg-container-side
 ! 下側
 www.cnn.co.jp###related_stories
 www.cnn.co.jp##section
+
 ! Yahoo!ニュース
 ! 左上の文字列
 news.yahoo.co.jp###mhd_uhd_pc
@@ -81,6 +95,7 @@ news.yahoo.co.jp###uamods-also_read
 news.yahoo.co.jp###articleCommentModule
 ! あなたにおすすめの記事
 news.yahoo.co.jp##aside
+
 ! 京都新聞
 www.kyoto-np.co.jp##section
 www.kyoto-np.co.jp##.l-sub
@@ -100,6 +115,9 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 会話"] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(その他のツイート):upward(div[style^=transform]) ~ div[style^=transform]
 ! Twitter アカウント作成ウィジェット https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/320
 twitter.com##div[data-testid=sidebarColumn] section[aria-label=アカウント作成]
+
+! カラパイア
+karapaia.com###right
 
 ! Cookie
 zoom.us###onetrust-banner-sdk
