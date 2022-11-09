@@ -81,6 +81,9 @@ news.yahoo.co.jp###uamods-also_read
 news.yahoo.co.jp###articleCommentModule
 ! あなたにおすすめの記事
 news.yahoo.co.jp##aside
+! 京都新聞
+www.kyoto-np.co.jp##section
+www.kyoto-np.co.jp##.l-sub
 
 ! ニコニコ大百科
 ! 右側
