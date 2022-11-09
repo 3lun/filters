@@ -1,0 +1,9 @@
+! Title: 3lun's Filters - Annoyances
+! Expires: 50 days
+! Homepage: https://github.com/3lun/filters
+! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+! Version: 20221109
+
+! 検索サイト
+! Google トップニュース
+www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
