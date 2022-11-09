@@ -4,6 +4,21 @@
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 ! Version: 20221109
 
-! 検索サイト
-! Google トップニュース
+! 検索サイト 
+! Google検索　Yuki's uBlock Japanese filters - Annoyances Plusより引用
+! 他のキーワード
+www.google.*###bres, div[id][data-abe][data-hveid]
+! 他の人はこちらも質問
+www.google.*##div[data-initq][data-it=rq]
+! 動画
+www.google.*###rso > div > div[jscontroller][data-hveid]:has(video-voyager)
+! 人気商品
+www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
+! トップニュース
 www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
+
+! Cookie
+zoom.us###onetrust-banner-sdk
+
+! その他広告等
+||dq2gamebook.x0.com/img/banner.gif
