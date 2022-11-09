@@ -65,6 +65,8 @@ www.cnn.co.jp##.pg-container-side
 www.cnn.co.jp###related_stories
 www.cnn.co.jp##section
 ! Yahoo!ニュース
+! 左上の文字列
+news.yahoo.co.jp###mhd_uhd_pc
 ! 右側
 news.yahoo.co.jp###yjnSub
 ! コメント数
