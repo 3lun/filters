@@ -4,7 +4,7 @@
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 ! Version: 20221109
 
-! 検索サイト 
+! 検索エンジン
 ! Google検索　Yuki's uBlock Japanese filters - Annoyances Plusより引用
 ! 他のキーワード
 www.google.*###bres, div[id][data-abe][data-hveid]
@@ -16,6 +16,18 @@ www.google.*###rso > div > div[jscontroller][data-hveid]:has(video-voyager)
 www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
 ! トップニュース
 www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
+
+! マスコミ・ニュースサイト
+! 読売オンライン
+! 右側
+www.yomiuri.co.jp##.layout-contents__sidebar
+! ピックアップ記事
+www.yomiuri.co.jp##.p-article-reading-recommend
+www.yomiuri.co.jp##.p-category-reading-recommend
+! CNN.co.jp
+! 右側
+www.cnn.co.jp##.pg-container-side
+
 
 ! Cookie
 zoom.us###onetrust-banner-sdk
