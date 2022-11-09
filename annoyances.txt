@@ -48,9 +48,13 @@ www.asahi.com##.AO19z
 ! 毎日新聞
 ! 関連記事
 mainichi.jp###articledetail-nextread
+! ニュース特集
+mainichi.jp###featurelist
 ! NHK NEWS WEB
 ! 右側
 www3.nhk.or.jp##.side-inner
+! 注目ワード
+www3.nhk.or.jp##.module--hot-trends
 ! 下側
 www3.nhk.or.jp##.module--detail-morenews
 www3.nhk.or.jp##.module--news-feature
