@@ -15,7 +15,7 @@ www.google.*###rso > div > div[jscontroller][data-hveid]:has(video-voyager)
 ! 人気商品
 www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
 ! トップニュース
-www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
+www.google.*##.ULSxyf
 ! 百度
 ! 百度热搜
 www.baidu.com##.s-hotsearch-wrapper
