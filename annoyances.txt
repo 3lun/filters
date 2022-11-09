@@ -66,6 +66,13 @@ www.cnn.co.jp##.pg-container-side
 www.cnn.co.jp###related_stories
 www.cnn.co.jp##section
 
+!ニコニコ大百科
+! 右側
+dic.nicovideo.jp###right-column
+! おすすめニュース
+dic.nicovideo.jp##.st-box_heading-news
+dic.nicovideo.jp##.a-recommend_news-contents
+
 ! Cookie
 zoom.us###onetrust-banner-sdk
 
