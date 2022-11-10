@@ -1,4 +1,4 @@
-! Title: 3lun's filters - Annoyances（腐海フィルタ）
+! Title: 3lun's Annoyances filter (腐海フィルタ)
 ! Expires: 50 days
 ! Homepage: https://github.com/3lun/filters
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
