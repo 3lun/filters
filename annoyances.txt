@@ -79,6 +79,41 @@ www3.nhk.or.jp##.module--special
 www.fnn.jp##aside
 www.fnn.jp##.m-ranking
 
+! MBS NEWS
+www.mbs.jp##.article-wrap--pickup
+
+! TBS NEWS
+! 右側
+tbs.co.jp##.l-sub
+! 一緒に読まれている記事
+tbs.co.jp##.l-contents-wrap
+! 注目の記事
+tbs.co.jp##.m-article-3col-wrap
+tbs.co.jp##.l-lg-mb-2
+! 各地の話題を凝縮
+tbs.co.jp##.l-lg-mb-10
+! テレ朝news
+! 速報覧
+news.tv-asahi.co.jp###ticker
+! 右側
+news.tv-asahi.co.jp##.common-aside
+! 注目ニュース
+news.tv-asahi.co.jp##.section-headline
+! PICK UP オススメ
+news.tv-asahi.co.jp###top_osusume
+
+! 時事ドットコム
+! 右側
+www.jiji.com##aside
+! 関連記事
+www.jiji.com##.BottomArticleList
+! 特集
+www.jiji.com##.RecommendUnderlayer
+! スクロール後に勝手にトップページを読み込んでくるやつ
+||jiji.com/news2/common/js/article_iframe.js$domain=jiji.com
+! トップページランキング
+www.jiji.com##.Ranking
+
 ! CNN.co.jp
 ! 右側
 www.cnn.co.jp##.pg-container-side
@@ -176,4 +211,4 @@ karapaia.com###right
 amazon.*###similarities_feature_div
 amazon.*###rhf
 
-||dq2gamebook.x0.com/img/banner.gif
+||dq2gamebook.x0.com/img/banner.gif$domain=niconamarta.sakura.ne.jp
