@@ -135,6 +135,3 @@ amazon.*###similarities_feature_div
 amazon.*###rhf
 
 ||dq2gamebook.x0.com/img/banner.gif
-
-! Cookie Notice（既存フィルタ非対応）
-zoom.us###onetrust-banner-sdk
