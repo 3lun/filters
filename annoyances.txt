@@ -81,6 +81,14 @@ www3.nhk.or.jp##.module--special
 www.fnn.jp##aside
 www.fnn.jp##.m-ranking
 
+! 日テレNEWS
+! 右
+news.ntv.co.jp##.sideContents
+! 関連
+news.ntv.co.jp##p:has-text(（関連）)
+! 関連記事 ニュース一覧ページも見られなくなる不具合あり　問題なら例外に入れて下さい
+news.ntv.co.jp##.title-card-wrapper
+
 ! MBS NEWS
 www.mbs.jp##.article-wrap--pickup
 
@@ -94,6 +102,7 @@ tbs.co.jp##.m-article-3col-wrap
 tbs.co.jp##.l-lg-mb-2
 ! 各地の話題を凝縮
 tbs.co.jp##.l-lg-mb-10
+
 ! テレ朝news
 ! 速報覧
 news.tv-asahi.co.jp###ticker
