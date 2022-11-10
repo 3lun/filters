@@ -28,6 +28,7 @@ www.google.*##block-component
 www.baidu.com##.s-hotsearch-wrapper
 
 ! マスコミ・ニュースサイトなど
+
 ! 読売オンライン
 ! 右側
 www.yomiuri.co.jp##.layout-contents__sidebar
@@ -71,6 +72,11 @@ www3.nhk.or.jp##.module--detail-morenews
 www3.nhk.or.jp##.module--news-feature
 www3.nhk.or.jp##.module--special
 
+! FNNプライムオンライン
+! ランキング
+www.fnn.jp##aside
+www.fnn.jp##.m-ranking
+
 ! CNN.co.jp
 ! 右側
 www.cnn.co.jp##.pg-container-side
@@ -100,6 +106,7 @@ news.yahoo.co.jp##aside
 www.kyoto-np.co.jp##section
 www.kyoto-np.co.jp##.l-sub
 
+!その他Webサイトの不愉快な関連記事
 ! ニコニコ大百科
 ! 右側
 dic.nicovideo.jp###right-column
@@ -119,8 +126,13 @@ twitter.com##div[data-testid=sidebarColumn] section[aria-label=アカウント�
 ! カラパイア
 karapaia.com###right
 
-! Cookie
-zoom.us###onetrust-banner-sdk
+! 自社広告、その他不快要素
 
-! その他広告等
+! Amazon おすすめ商品等
+amazon.*###similarities_feature_div
+amazon.*###rhf
+
 ||dq2gamebook.x0.com/img/banner.gif
+
+! Cookie Notice（既存フィルタ非対応）
+zoom.us###onetrust-banner-sdk
