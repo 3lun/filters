@@ -22,6 +22,8 @@ www.google.*###rso > div > div[jscontroller][data-hveid][data-ved] > g-card
 www.google.*##div[aria-level="2"]:has-text(トップニュース):upward([data-hveid][data-ved])
 ! こちらを検索しますか
 www.google.*##block-component
+! 〜からの最新情報
+www.google.*##div[aria-level="2"]:has-text(からの最新情報):upward([data-hveid][data-ved])
 
 ! 百度
 ! 百度热搜
