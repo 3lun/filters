@@ -116,7 +116,49 @@ dic.nicovideo.jp###right-column
 dic.nicovideo.jp##.st-box_heading-news
 dic.nicovideo.jp##.a-recommend_news-contents
 
-! Twitter Yuki's uBlock Japanese filters - Annoyances Plusより引用
+! Twitter Yuki's uBlock Japanese filters - Annoyances および Annoyances Plusより引用
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"] > div > div[style^="position: absolute;"] > div > div > div > div[role=button] > div[dir=auto] > span > span:has-text(通知をオンにする):upward(5)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[role=dialog] div[data-testid=sheetDialog] div[dir=auto] > span[dir] > span:has-text(通知をオンにする):upward(div[role=dialog])
+! おすすめのツイート
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article[data-testid=tweet]:has(span[aria-label^="おすすめトピック:"][data-testid=socialContext])
+! おすすめユーザー
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##aside[aria-label=おすすめユーザー]:upward(1)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"] > div > div[style^=transform] > div a[href^="/i/connect_people?"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(おすすめユーザー):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"]  > div > div[style^=transform]:has(div[aria-label^=フォロー][role=button] > div > span > span)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 話題を検索"] > div > div[style^=transform] > div a[href^="/i/connect_people?"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 話題を検索"] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(おすすめユーザー):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 話題を検索"] > div > div[style^=transform]:has(div[aria-label^=フォロー][role=button] > div > span > span)
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] > div a[href^="/i/connect_people?"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] h2 > div[style^="-webkit"] > span:has-text(おすすめユーザー):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform]:has(div[aria-label^=フォロー][role=button] > div > span > span)
+! リツイートをもとにおすすめ
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"] > div > div[style^=transform]:has(a[id][href^="/i/topics/"] > span[aria-label^=おすすめトピック])
+! おすすめトピック
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: "] h2 > div[style^=-webkit] > span:has-text(おすすめトピック):upward(div[aria-label="タイムライン: "])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] > div a[href^="/i/topics/picker/home"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] > div[class^=css]:only-child > div[class^=css]:only-child:empty
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] div[data-testid=ScrollSnap-SwipeableList]:has(div[aria-label^=トピック「][aria-label$=をフォロー])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^=タイムライン][aria-label$=さんのツイート] > div > div[style^=transform] h2 > div[style^=-webkit] > span:has-text(おすすめトピック):upward(div[style^=transform])
+! リストを見つける
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 自分のリスト"] > div > div[style^=transform] > div a[href="/i/lists/suggested"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 自分のリスト"] > div > div[style^=transform] h2 > div[style^=-webkit] > span:has-text(新しいリストを見つける):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: 自分のリスト"] > div > div[style^=transform]:has(> div > div > div[role=link] div[role=button] > div > span > span)
+! タイムラインにトピックも表示しましょう
+!twitter.com##div[style^="position: absolute"] section > div[aria-label="タイムライン: Carousel"] > nav div[role=presentation]:first-child > div > div:first-child div[aria-label^="トピック「"]:upward(div[style^="position: absolute"])
+!twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div[style] > div[style^="position: absolute"] div > a[href="/i/topics/picker/home"]:upward(div[style^="position: absolute"])
+!twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div[style] > div[style^="position: absolute"] h2 + div[style^=-webkit] > span:has-text(これらのトピックについてのトップツイートが):upward(div[style^="position: absolute"])
+!twitter.com##div[aria-label="タイムライン: ホームタイムライン"] > div[style] > div[style^="position: absolute"] h2 + div[style^=-webkit] > span:has-text(これらのトピックについてのトップツイートが):upward(div[style^="position: absolute"]) + div[style^="position: absolute"]
+! プッシュ通知
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label^="タイムライン: "] > div > div[style^=transform] h1 > span:has-text(プッシュ通知):upward(div[style^=transform])
+! カスタマイズした広告
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"]  > div > div[style^=transform]:has(span > a[href="/settings/account/personalization"])
+! 関連トピック
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: タイムラインを検索"] h2 > div[style^=-webkit] > span:has-text(関連トピック):upward(div[style^=transform])
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: タイムラインを検索"] > div > div[style^=transform] > div > div > a[href^="/i/topics/"]
+! アクセシビリティ
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[aria-label="タイムライン: ホームタイムライン"] > div > div[data-testid=cellInnerDiv] div[data-testid=inlinePrompt] span[dir] > span > span:has-text(Twitterのアクセシビリティを高めましょう):upward( div[data-testid=cellInnerDiv])
+
 ! いまどうしてる？
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] div > div > div > section > div[aria-label="タイムライン: トレンド"]:upward(3)
 ! その他のツイート
