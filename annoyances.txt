@@ -35,6 +35,8 @@ www.yomiuri.co.jp##.layout-contents__sidebar
 ! ピックアップ記事
 www.yomiuri.co.jp##.p-article-reading-recommend
 www.yomiuri.co.jp##.p-category-reading-recommend
+! あわせて読みたい
+www.yomiuri.co.jp##aside
 
 ! 日本経済新聞
 ! 右側
