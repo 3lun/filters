@@ -51,7 +51,6 @@ www.nikkei.com##.container_coxoowy
 www.sankei.com##.sidebar-items
 ! 下側
 www.sankei.com##.story-card-header
-www.sankei.com##.story-card-feed
 
 ! 朝日新聞デジタル
 ! 右側
