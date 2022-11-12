@@ -39,6 +39,8 @@ www.yomiuri.co.jp##.p-article-reading-recommend
 www.yomiuri.co.jp##.p-category-reading-recommend
 ! あわせて読みたい
 www.yomiuri.co.jp##aside
+! 速報
+www.yomiuri.co.jp##.p-header-notice
 
 ! 日本経済新聞
 ! 右側
@@ -55,6 +57,7 @@ www.sankei.com##.story-card-header
 ! 朝日新聞デジタル
 ! 右側
 www.asahi.com##aside
+www.asahi.com###SubInner
 ! 下側
 www.asahi.com##._yMWq
 www.asahi.com##.AO19z
@@ -64,6 +67,8 @@ www.asahi.com##.AO19z
 mainichi.jp###articledetail-nextread
 ! ニュース特集
 mainichi.jp###featurelist
+! ヘッドライン
+mainichi.jp##.headline-wrapper
 
 ! NHK NEWS WEB
 ! 右側
@@ -79,6 +84,10 @@ www3.nhk.or.jp##.module--special
 ! ランキング
 www.fnn.jp##aside
 www.fnn.jp##.m-ranking
+! Live プライムニュース
+www.fnn.jp##.m-ticker-item 
+! 他の記事
+www.fnn.jp##.article-related-contents 
 
 ! 日テレNEWS
 ! 右
@@ -148,6 +157,16 @@ news.yahoo.co.jp###uamods-also_read
 news.yahoo.co.jp###articleCommentModule
 ! あなたにおすすめの記事
 news.yahoo.co.jp##aside
+
+! ニコニコニュース
+! 右
+news.nicovideo.jp##.is-3
+! 関連ニュース
+news.nicovideo.jp##.article-relateds
+! コメント
+news.nicovideo.jp###comments
+! コメント数
+news.nicovideo.jp##.article-comment-count
 
 ! 京都新聞
 www.kyoto-np.co.jp##section
