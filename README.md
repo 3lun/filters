@@ -13,7 +13,7 @@
 - ブロッカー：uBlock Origin
   - AdGuard Annoyances、AdGuard Social Media、uBlock filters – Annoyancesを購読することを推奨します（ここで対応されていないものを消すため）
 
-## 腐海フィルタ（3lun's Annoyances Filters）
+## 腐海フィルタ（3lun's Annoyances filter）
 <a href="https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/3lun/filters/main/annoyances.txt&title=3lun's Annoyances filter">フィルタを購読する</a>
 [中身を見る](https://raw.githubusercontent.com/3lun/filters/main/annoyances.txt)
 
@@ -24,10 +24,8 @@
 - 日本語、中国語
 
 ### このフィルタが向いている人
-- 悲しいニュース・ショッキングな記事の氾濫に心を痛めている人
-- 政治・社会系の対立煽り・誹謗中傷記事の乱立にうんざりしている人
-- 自分で目的の情報を探し出せて、それ以外の興味のない情報を見たくない人
-- 自分の世界に介入されたくない人
+- とにかく不快な情報を見たくない人
+- 自分で目的の情報を探し出せて、それ以外の情報を見たくない人
 
 ### 非表示にするもの
 - マスコミ・ニュースサイトの記事の本文に関係のない関連ニュース・ランキングなど
