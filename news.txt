@@ -1,4 +1,4 @@
-! Title: 3lun's news filter (王蟲フィルタ)
+! Title: 3lun's News filter (王蟲フィルタ)
 ! Expires: 50 days
 ! Homepage: https://github.com/3lun/filters
 ! Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
