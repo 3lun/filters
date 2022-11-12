@@ -1,4 +1,5 @@
 www.yomiuri.co.jp,www.asahi.com,mainichi.jp,www3.nhk.or.jp,news.tv-asahi.co.jp,news.yahoo.co.jp##li:has-text()
+www.yomiuri.co.jp##div.wrap:has-text():upward(article)
 www.asahi.com##.c-articleModule:has-text()
 www.sankei.com##article:has-text()
 mainichi.jp##.categorypickup:has-text()
