@@ -234,6 +234,9 @@ twitter.com##div[data-testid=sidebarColumn] section[aria-label=アカウント�
 ! カラパイア
 karapaia.com###right
 
+!ギズモード・ジャパン
+www.gizmodo.jp##.l-generalContent-secondary
+
 ! 自社広告、その他不快要素
 
 ! Amazon おすすめ商品等
